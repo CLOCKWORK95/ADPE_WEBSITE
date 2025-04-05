@@ -7,6 +7,11 @@ disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   # Style options: default (red), blue, green, pink, red, sea, violet
   # Use custom.css for your custom styling

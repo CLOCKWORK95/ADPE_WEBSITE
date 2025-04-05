@@ -54,9 +54,9 @@ googleAnalytics = ""
   url = "contact/"
 
   [params.social]
-  facebook      = "full page or profile url in facebook"
+  facebook      = "https://www.facebook.com/AdpeStudioDiArchitettura"
   googleplus    = "full profile url in googleplus"
-  email         = "email@example.com"
+  email         = "info@adpe.it"
   twitter       = "full profile url in twitter"
-  linkedin      = "full profile url in linkedin"
-  instagram     = "full profile url in instagram"
+  linkedin      = "https://www.linkedin.com/company/adpe-studio/"
+  instagram     = "https://www.instagram.com/adpe_studiodiarchitettura/"

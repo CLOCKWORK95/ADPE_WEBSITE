@@ -1,6 +1,6 @@
 +++
 title = "INTERNI"
 date = 2024-03-28
-image = "images/progetti/interni/03.int_15.jpg"
+image = "/images/progetti/interni/05.int_1.jpg"
 draft = false
 +++

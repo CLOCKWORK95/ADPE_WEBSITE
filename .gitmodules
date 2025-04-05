@@ -1,0 +1,3 @@
+[submodule "adpe_site/themes/hugo-creative-portfolio-theme"]
+	path = adpe_site/themes/hugo-creative-portfolio-theme
+	url = https://github.com/kishaningithub/hugo-creative-portfolio-theme.git

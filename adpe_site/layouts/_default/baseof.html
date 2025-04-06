@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-<head>{{ partial "head.html" . }}</head>
-<body>
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="{{ if .IsHome }}home-page{{ end }}">
+  {{ if .IsHome }}
+    {{ partial "splash.html" . }}
+  {{ end }}
   <div id="all">
-      <div class="container-fluid">
-          <div class="row row-offcanvas row-offcanvas-left">
-              {{ partial "sidebar.html" . }}
-              {{ block "main" . }}
-              {{ end }}
-          </div>
+    <div class="container-fluid">
+      <div class="row row-offcanvas row-offcanvas-left">
+        {{ partial "sidebar.html" . }}
+        <main>
+          {{ block "main" . }}{{ end }}
+          {{ .Content }}
+        </main>        
       </div>
+    </div>
   </div>
   {{ partial "scripts.html" . }}
+  <script src="{{ "js/main.js" | absURL }}" defer></script>
 </body>
 </html>

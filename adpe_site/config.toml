@@ -48,7 +48,6 @@ googleAnalytics = ""
   [[params.navlinks]]
   name = "Progetti"
   url = "portfolio/"
-  home = true
 
   [[params.navlinks]]
   name = "Chi Siamo"
@@ -62,6 +61,5 @@ googleAnalytics = ""
   facebook      = "https://www.facebook.com/AdpeStudioDiArchitettura"
   googleplus    = "full profile url in googleplus"
   email         = "info@adpe.it"
-  twitter       = "full profile url in twitter"
   linkedin      = "https://www.linkedin.com/company/adpe-studio/"
   instagram     = "https://www.instagram.com/adpe_studiodiarchitettura/"
